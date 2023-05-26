@@ -1,0 +1,69 @@
+
+        body {
+            background-color: skyblue;
+            text-align: justify;
+            font-family: sans-serif;
+            background-image: url(https://www.wallpapertip.com/wmimgs/24-248061_677245-title-earth-from-space-wallpaper-planet-earth.jpg);
+        }
+        
+        h1 {
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 50px;
+            color: blue;
+            font-style: italic;
+            text-shadow: 0 0 3px #005a83e5, 0 0 5px #005a83e5;
+        }
+        
+        h2 {
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 30px;
+            color: blue;
+            font-style: italic;
+            text-shadow: 0 0 3px #005a83e5, 0 0 5px #005a83e5;
+        }
+        
+        #Autores {
+            color: white;
+            font-family: sans-serif;
+            font-size: 10px;
+        }
+        
+        #box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.85;
+        }
+        
+        section {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .button-as-link {
+            padding: 5px 10px;
+            background-color: blue;
+            border: none;
+            display: inline-block;
+            margin-top: 0;
+            border-radius: 20px;
+            padding: 17px;
+        }
+        
+        .button-as-link a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-style: italic;
+        }
+
+        #videoPlayer {
+            width: 640px;
+            height: 360px;
+        }
+      
+
+       

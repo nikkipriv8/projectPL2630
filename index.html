@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <title>PL 2630/20</title>
+</head>
+<body>
+    <br>
+    <h1>Projeto de Lei 2630/2020</h1>
+    <h2>2630/2020</h2>
+    <div id="box">
+        <h1>Video Player</h1>
+        <section>
+            <video id="videoPlayer" controls>
+                <source src="VIDEO.mp4" type="video/mp4">
+            </video>
+            <br>
+            
+            <button onclick="playVideo()" class="button-as-link"><a href="#">Play</a></button>
+            <button onclick="pauseVideo()" class="button-as-link"><a href="#">Pause</a></button>
+            <button onclick="stopVideo()" class="button-as-link"><a href="#">Stop</a></button>
+            <br>
+            <input type="range" min="0" max="1" step="0.1" value="1" oninput="setVolume(this.value)">
+            <br>
+            <button onclick="toggleFullScreen()" class="button-as-link"><a href="#">Full Screen</a></button>
+           
+        </section>
+    </div>
+    <script src="index.js"></script>
+
+    <p id="Autores">By Jonas, Kayke, Gustavo and Yuri</p>
+
+</body>
+</html>
